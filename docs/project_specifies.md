@@ -34,7 +34,7 @@ Responsável por toda a interação com o banco de dados.
 Componente desacoplado para o envio de alertas.
 
 * **Integração:** O módulo deve ser capaz de enviar mensagens para a API do Telegram e/ou Discord.
-* **Interface:** Deve expor uma função simples, como `enviar_alerta(mensagem: str)`, que abstrai a complexidade da requisição HTTP.
+* **Interface:** Deve expor uma função simples, como `send_alert(mensagem: str)`, que abstrai a complexidade da requisição HTTP.
 * **Mensagens:** As mensagens de alerta devem ser claras, indicando qual limiar foi ultrapassado e o valor atual da métrica.
 
 #### **Módulo 4: Orquestrador (`main.py`)**
